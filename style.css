@@ -1,0 +1,614 @@
+
+
+.banner-img{
+
+
+width: 100%;
+height: 150px;
+object-fit: cover;
+display: block;
+
+}
+
+body{
+    margin: 0;
+    background-color: #ffe4e1;
+}
+
+
+
+.nav-color{
+
+    background-color: #c58b84;
+    width: 100%;
+    padding-inline: 10px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+
+
+.nav-color a{
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+
+}
+
+.nav-color a:hover{
+    color: #8f3254;
+}
+
+.navbar-nav{
+    gap: 100%;
+}
+
+.logo{
+    width:60px;
+    height: 60px;
+    background-color: rgba(224, 163, 163, 0.874) ;
+    border: 1px solid #8b6655;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.brandname{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    font-size: 30px;
+}
+
+
+
+
+a .bi-box-arrow-right{
+
+font-size: 30px;
+
+}
+
+
+main{
+   
+    padding-bottom: 100px;
+}
+
+.container{
+  position: relative;
+}
+
+
+/* sparkles */
+
+.sparkle{
+position: absolute;
+color: #db7a9d;
+font-size: 32px;
+pointer-events: none;
+
+z-index: 10;
+}
+
+.sparkle-big{
+position: absolute;
+color: #db7a9d;
+font-size: 45px;
+pointer-events: none;
+
+z-index: 10;
+}
+
+.sparkle1{
+
+top: 50px;
+left: 50px;
+
+}
+
+
+.sparkle2{
+
+top:155px;
+right: 32px;
+transform: rotate(25deg);
+  
+}
+
+
+.sparkle3{
+
+top:480px;
+right: 50px;
+transform: rotate(10deg);
+  
+}
+
+
+.sparkle4{
+
+  transform: rotate(-25deg);
+
+  
+}
+
+.sparkle5{
+
+top:550px;
+right: 50px;
+transform: rotate(25deg);
+  
+  
+}
+
+.sparkle6{
+
+top:550px;
+left: 20px;
+transform: rotate(120deg);
+  
+}
+
+
+.sparkle7{
+
+top:30px;
+right: 80px;
+transform: rotate(25deg);
+  
+}
+
+
+
+
+/* entry card head */
+.entry-head{
+position: relative;
+  background-color:#8b9be2;
+box-shadow: 0 1px 3px;
+
+}
+
+
+.entry-head h4{
+font-family: 'Times New Roman', Times, serif; 
+   font-weight: bold; 
+}
+
+
+.entry-body{
+
+background-color: #feeee7;
+height: 350px; 
+ overflow-y: auto;
+ scrollbar-width: thin;
+scrollbar-color: #9ea4c2 #e4e9ff;
+
+}
+
+.entry-btn{
+
+  background-color: #c3827b; 
+  color: #efeaea;
+  width:  40%;
+  height: 40%;
+  
+}
+
+.entry-btn:hover{
+color: #efeaea;
+ background-color: #b53c68;
+}
+
+
+
+.delete-form{
+
+ width: 40%;
+ margin: 0;
+
+}
+
+.delete-form .entry-btn{
+  width: 100%;
+  height: auto;
+}
+
+
+/* cat video */
+.video-loop{
+position: absolute;
+width: 100%;
+height: 100px;
+object-fit: cover;
+border-radius: 10px;
+left: -10px;
+bottom: 210px;
+
+}
+
+
+
+/* cloud image */
+
+.clouds-img{
+
+position: relative;
+bottom: -130px;
+right: -30px;
+
+width: 250px;
+height: 250px;
+
+
+}
+
+
+
+
+
+
+
+
+/* Calendar */
+
+.calendar{
+
+background: #fff0e9;
+border: 2px solid #E8C7D2 ;
+border-radius: 15px;
+padding: 15px;
+width: 270px;
+height: 300px;
+position: relative;
+bottom: 25px;
+
+}
+
+.calendar-header{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+
+.direction{
+
+background-color: #e4a29a ;
+font-size: 15px;
+padding: 1px;
+
+}
+
+
+.calendar-grid{
+
+display: grid;
+grid-template-columns: repeat(7,1fr);
+margin-top: 10px;
+gap: 8px;
+text-align: center;
+
+}
+
+.calendar-grid button{
+  border: none;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 6px;
+}
+
+
+.calendar-grid button.today{
+  background: #dfa9bd;
+}
+
+
+
+
+
+
+
+
+
+
+/*  index php  clock*/
+
+
+
+.clock-column{
+position: relative;
+
+
+}
+
+.mini-clock {
+  --bg-color: #b7746c;
+  --text-color: #fff;
+  --card-size: 150px;
+
+
+position: relative;
+bottom: -60px;
+left: -30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffd2cd;
+  padding: 12px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  width: max-content;
+  margin-top: 100px;
+}
+
+.flip-card {
+  width: var(--card-size);
+  height: var(--card-size);
+  background: var(--bg-color);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Keeps the rolling numbers inside the card boundary */
+  
+  /* The fake split crease line */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 49%, #000 50%, rgba(0,0,0,0) 51%);
+}
+
+.flip-card span {
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.colon {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 3. THE ANIMATION CLASS */
+/* When JS applies this class, the number will roll downward quickly */
+.animate-flip {
+  animation: rollDown 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes rollDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/*  index php footer   */
+
+footer{
+
+
+  background-color: #d49c96;
+  
+    width: 100%;
+    padding: 15px 10px;
+    
+    border-radius: 10px;
+    margin-top: 80px;
+    min-height: unset;
+
+}
+
+
+
+
+footer h4{
+
+color: #3f201d;
+
+}
+
+footer h3{
+
+color: #6e3f3d;
+
+}
+
+footer h5{
+
+color: #824f4d;
+  font-size: 14px;
+ margin-bottom: 5px;
+  text-align: center;
+
+  
+}
+
+
+footer a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #824f4d;
+    display: block;
+    text-align:center;
+    margin-bottom: 5px;
+    line-height: 1.4;
+
+}
+
+footer a:hover{
+    color: #8f3254;
+}
+
+
+
+footer .row:nth-child(2) .col-4:nth-child(2), 
+.row:nth-child(2) .col-4:nth-child(3){
+
+margin-bottom: 80px;
+border-left: 2px solid #824f4d;
+
+
+}
+
+
+
+
+
+
+/*  Register and login php  */
+
+.login a{
+    text-decoration: underline;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+
+}
+
+.login a:hover{
+    color: #8f3254;
+}
+
+
+.register-page{
+    background-color: #c58b84;
+}
+
+
+.loginerror{
+
+
+  color: red;
+}
+
+
+.loginReg{
+
+  width:  50%; 
+  background-color: #b16750; 
+  color: #efeaea;
+}
+
+
+.loginReg:hover{
+color: #efeaea;
+ background-color: #cf4678;
+ 
+}
+
+
+#regbtn:disabled{
+  opacity: 0.5;
+}
+
+#regbtn:enabled{
+  opacity: 1;
+}
+
+
+/*  add php  */
+
+
+.addEdit-page{
+
+font-family: 'copperplate', serif; 
+color: #3f201d; 
+font-size: 20px;
+ background-color: #daa39d;
+
+}
+
+.addEdit-page h2{
+  font-weight: bold; 
+  text-decoration: underline;
+}
+
+.addEdit-btn{
+
+background-color: #ba594e; 
+color: #efeaea;
+
+}
+
+.addEdit-btn:hover{
+
+color: #efeaea;
+ background-color: #b53c68;
+
+}
+
+
+
+
+
+
+/*  about php  */
+
+
+
+
+.about-con{
+
+display: flex;
+flex-direction: column;
+gap: 40px;
+
+
+}
+
+.about-title{
+
+
+font-family: 'copperplate', serif; 
+font-weight: bold;
+ color: #3f201d;
+  font-size: 70px; 
+  margin-top: 150px;
+  text-decoration:underline;
+
+}
+
+
+
+.about-names{
+font-family: 'copperplate', serif; 
+font-weight: bold;
+ color: #3f201d;
+font-size: 25px;
+
+}
+
+
+.about-text{
+
+font-family: 'copperplate', serif; 
+font-weight: bold;
+ color: #3f201d;
+  font-size: 20px; 
+  margin-top: 50px;
+  width: 20%;
+  margin-bottom: 30px;
+
+
+}
+
+
